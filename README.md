@@ -25,15 +25,15 @@ O Laravel Maps App é um sistema web desenvolvido em Laravel 12 que possibilita 
 
 ## Tecnologias Utilizadas
 
-Backend: Laravel 12
+* Backend: Laravel 12
 
-Frontend: Blade Templates + Bootstrap 5
+* Frontend: Blade Templates + Bootstrap 5
 
-Mapas: Leaflet.js + OpenStreetMap
+* Mapas: Leaflet.js + OpenStreetMap
 
-Banco de Dados: MySQL
+* Banco de Dados: MySQL
 
- Instalação
+## Instalação
 # Criar projeto Laravel
 composer create-project laravel/laravel .
 
