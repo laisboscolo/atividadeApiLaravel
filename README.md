@@ -34,7 +34,7 @@ O Laravel Maps App é um sistema web desenvolvido em Laravel 12 que possibilita 
 * Banco de Dados: MySQL
 
 ## Instalação
-# Criar projeto Laravel
+## Criar projeto Laravel
 composer create-project laravel/laravel .
 
 # Copiar configuração e gerar chave
@@ -42,12 +42,12 @@ copy .env.example .env
 php artisan key:generate
 
 
-Verificar instalação:
+## Verificar instalação:
 
 php artisan --version
 dir
 
-Configuração do Banco de Dados
+## Configuração do Banco de Dados
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -56,23 +56,23 @@ DB_USERNAME=root
 DB_PASSWORD=senha
 
 
-Testar conexão:
+## Testar conexão:
 
 php artisan tinker
 DB::connection()->getPdo();
 
 
-Criar tabelas:
+## Criar tabelas:
 
 php artisan migrate
 
-Ajustes no .env
+## Ajustes no .env
 APP_ENV=production
 APP_DEBUG=false
 APP_URL=https://seudominio.com
 DB_USERNAME=usuario
 DB_PASSWORD=senha
 
-Executar o servidor
+## Executar o servidor
 php artisan serve
 
