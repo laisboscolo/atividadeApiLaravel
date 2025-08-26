@@ -76,3 +76,11 @@ DB_PASSWORD=senha
 ## Executar o servidor
 php artisan serve
 
+# site
+pagina inicial
+<img width="1882" height="854" alt="image" src="https://github.com/user-attachments/assets/95517465-448c-4d08-8303-b063c64f8ef5" />
+pagina de adicionar local
+<img width="1850" height="867" alt="image" src="https://github.com/user-attachments/assets/7d39f325-21ef-45a2-a36f-de2848dc7f9e" />
+
+
+
